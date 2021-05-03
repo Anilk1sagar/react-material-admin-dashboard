@@ -6,8 +6,8 @@ const loading = (
 );
 
 // Layouts
-const AuthLayout = React.lazy(() => import('./components/layouts/AuthLayout/AuthLayout'));
-const CoreLayout = React.lazy(() => import('./components/layouts/CoreLayout/CoreLayout'));
+const AuthLayout = React.lazy(() => import('./layouts/AuthLayout/AuthLayout'));
+const CoreLayout = React.lazy(() => import('./layouts/CoreLayout/CoreLayout'));
 
 export default function AppRoutes() {
   return (
